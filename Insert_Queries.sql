@@ -1,3 +1,16 @@
+INSERT INTO author (AUTHOR_ID,FIRST_NAME,LAST_NAME,EMAIL,CITY,COUNTRY) values 
+('A1','Ajay','Sharma','as@gmail.com','Pune','India'),
+('A2','karan','pal','kp@gmail.com','Mumbai','India'),
+('A3','vinay','Ghule','vg@gmail.com','Chennai','India'),
+('A4','Alvin','Burnett','ab@gmail.com','New york','USA'),
+('A5','Mathew','Jacob','mj@gmail.com','houstan','USA'),
+('A6','Bob','Hyden','bh@gmail.com','toronto','USA'),
+('A7','Sachin','More','sm@gmail.com','Mumbai','India'),
+('A8','Rahul','Mule','rm@gmail.com','Banglore','India'),
+('A9','Alen','Shaw','as@gmail.com','Sydney','India');
+
+
+
 insert into BOOK (BOOK_ID,Title,Description,ISBN,pages,price,edition,Year)
 values
 ('B001','Getting started with Java','This book teaches you about Java','854-4382-1-1',300,19.99,1,2022),
@@ -8,6 +21,17 @@ values
 
 
 
+
+insert into AUTHOR_LIST(BOOK_ID,ROLE,AUTHOR_ID)
+values
+('B001','Author','A2'),
+('B002','Co-Author','A3'),
+('B003','Author','A4'),
+('B004','Co-Author','A5'),
+('B005','Author','A1'),
+('B006','Author','A2'),
+('B007','Author','A3'),
+('B008','Co-Author','A6')
 
 
 
